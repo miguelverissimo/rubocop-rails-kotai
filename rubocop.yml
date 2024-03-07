@@ -2,7 +2,6 @@ require:
   - rubocop-performance
   - rubocop-rails
   - rubocop-rspec
-  - ./cops/low_level_active_record_cop
 
 inherit_mode:
   merge:
