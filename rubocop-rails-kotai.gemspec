@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
 
   s.license = "MIT"
 
-  s.version = "1.0.1"
+  s.version = "1.0.2"
   s.platform = Gem::Platform::RUBY
 
   s.add_dependency "rubocop"
@@ -16,5 +16,5 @@ Gem::Specification.new do |s|
   s.add_dependency "rubocop-minitest"
   s.add_dependency "rubocop-rspec"
 
-  s.files = %w[ rubocop.yml ]
+  s.files = %w[rubocop.yml]
 end
