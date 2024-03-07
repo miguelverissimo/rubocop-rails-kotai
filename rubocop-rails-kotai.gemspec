@@ -7,14 +7,16 @@ Gem::Specification.new do |s|
 
   s.license = "MIT"
 
-  s.version = "1.0.2"
+  s.version = "1.0.3"
   s.platform = Gem::Platform::RUBY
 
   s.add_dependency "rubocop"
-  s.add_dependency "rubocop-rails"
-  s.add_dependency "rubocop-performance"
   s.add_dependency "rubocop-minitest"
+  s.add_dependency "rubocop-performance"
+  s.add_dependency "rubocop-rails"
   s.add_dependency "rubocop-rspec"
+
+  s.metadata["rubygems_mfa_required"] = "true"
 
   s.files = %w[rubocop.yml]
 end

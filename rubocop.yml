@@ -10,7 +10,6 @@ inherit_mode:
 AllCops:
   NewCops: enable
   SuggestExtensions: false
-  DisabledByDefault: true
   Exclude:
     - "data/**/*"
 
@@ -494,9 +493,6 @@ RSpec/ExampleLength:
 RSpec/ExcessiveDocstringSpacing:
   Enabled: true
 
-RSpec/FactoryBot/SyntaxMethods:
-  Enabled: true
-
 RSpec/IdenticalEqualityAssertion:
   Enabled: true
 
@@ -746,3 +742,9 @@ Style/RedundantFileExtensionInRequire:
 
 Style/RedundantFreeze:
   Enabled: false
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/StringLiteralsInInterpolation:
+  EnforcedStyle: double_quotes
